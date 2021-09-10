@@ -1,0 +1,46 @@
+<html>
+    <head>
+      {{>headTagContent}}
+    </head>
+    <body>
+      {{>bodyTagScript}}
+        {{!-- Header --}}
+        {{>header}}
+        <div class="container-fluid main_header">
+          <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+              <div class="row">
+                <!-- Left Side -->
+                <div class="col-md-6 col-12 main_header_right">
+                    <figure>
+                        <img src="images/person.jpeg" >
+                        <!-- <img src="images/soldier.png" alt="kartik"> -->
+                    </figure>
+                </div>
+
+                <!-- Right Side -->
+                <div class="col-md-6 col-12 main_header_left">
+                    <p>
+                        Welcome to weather app
+                    </p>
+                    <h1>
+                        MEAN Stack Developer 
+                        <span>
+                            Working on 
+                        </span>
+                        Web and Mobile Applications.
+                    </h1>
+                    <a href="/about">
+                        <button>
+                            About Me
+                        </button>
+                    </a>
+                </div>                
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        {{>footer }}
+    </body>
+</html>
